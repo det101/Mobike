@@ -28,6 +28,10 @@
 		B28561D81DBAFE8600D51F1A /* RCTBDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = B28561D31DBAFE8600D51F1A /* RCTBDMap.m */; };
 		B28561D91DBAFE8600D51F1A /* RCTBDMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B28561D51DBAFE8600D51F1A /* RCTBDMapManager.m */; };
 		B28561DA1DBAFE8600D51F1A /* RCTConvert+BDMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B28561D71DBAFE8600D51F1A /* RCTConvert+BDMapKit.m */; };
+		B28562001DBB392100D51F1A /* ios in Resources */ = {isa = PBXBuildFile; fileRef = B28561FF1DBB392100D51F1A /* ios */; };
+		BBED3750B0BC052A1526AF63 /* Pods_MobikeMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB53AEAA7CCC556BF130DE9 /* Pods_MobikeMap.framework */; };
+		E2CA4FABC1D94818B114427A /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9B59787F01492EBDE41BAE /* libRCTCamera.a */; };
+		E784C4B19BA9498A8F30B240 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F0B2E5887443E9B2D91CE3 /* libRNImagePicker.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +112,20 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		B28561E91DBB307800D51F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28E94803842D4E28A728CE96 /* RCTCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RCTCamera;
+		};
+		B28562251DBB402C00D51F1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF2C928BC5B41E6BC3A0F57 /* RNImagePicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 014A3B5C1C6CF33500B6D375;
+			remoteInfo = RNImagePicker;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -130,10 +148,14 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MobikeMap/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MobikeMap/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		28E94803842D4E28A728CE96 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		4A4974C04C87FFE9610A8647 /* Pods-MobikeMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobikeMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobikeMap/Pods-MobikeMap.release.xcconfig"; sourceTree = "<group>"; };
+		4AB53AEAA7CCC556BF130DE9 /* Pods_MobikeMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobikeMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5809D971E8F3CC5567B64774 /* Pods-MobikeMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobikeMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobikeMap/Pods-MobikeMap.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9B59787F01492EBDE41BAE /* libRCTCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTCamera.a; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A4F0B2E5887443E9B2D91CE3 /* libRNImagePicker.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImagePicker.a; sourceTree = "<group>"; };
 		B28561CC1DBAFE7600D51F1A /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotation.h; path = ../../Desktop/AwesomeProject/CustomAnnotation.h; sourceTree = "<group>"; };
 		B28561CD1DBAFE7600D51F1A /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAnnotation.m; path = ../../Desktop/AwesomeProject/CustomAnnotation.m; sourceTree = "<group>"; };
 		B28561CE1DBAFE7600D51F1A /* CustomAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAnnotationView.h; path = ../../Desktop/AwesomeProject/CustomAnnotationView.h; sourceTree = "<group>"; };
@@ -144,6 +166,8 @@
 		B28561D51DBAFE8600D51F1A /* RCTBDMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTBDMapManager.m; path = ../../Desktop/AwesomeProject/RCTBDMapManager.m; sourceTree = "<group>"; };
 		B28561D61DBAFE8600D51F1A /* RCTConvert+BDMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+BDMapKit.h"; path = "../../Desktop/AwesomeProject/RCTConvert+BDMapKit.h"; sourceTree = "<group>"; };
 		B28561D71DBAFE8600D51F1A /* RCTConvert+BDMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+BDMapKit.m"; path = "../../Desktop/AwesomeProject/RCTConvert+BDMapKit.m"; sourceTree = "<group>"; };
+		B28561FF1DBB392100D51F1A /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ios; path = "../node_modules/react-native-camera/ios"; sourceTree = "<group>"; };
+		BAF2C928BC5B41E6BC3A0F57 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +193,9 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				E2CA4FABC1D94818B114427A /* libRCTCamera.a in Frameworks */,
+				BBED3750B0BC052A1526AF63 /* Pods_MobikeMap.framework in Frameworks */,
+				E784C4B19BA9498A8F30B240 /* libRNImagePicker.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +318,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				B28561FF1DBB392100D51F1A /* ios */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
 				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
@@ -301,6 +329,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				28E94803842D4E28A728CE96 /* RCTCamera.xcodeproj */,
+				BAF2C928BC5B41E6BC3A0F57 /* RNImagePicker.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -321,6 +351,7 @@
 				00E356EF1AD99517003FC87E /* MobikeMapTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				9DDA32C601B16232ED705A22 /* Pods */,
+				BED282B5FC44EE90788329E9 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -342,6 +373,30 @@
 				4A4974C04C87FFE9610A8647 /* Pods-MobikeMap.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B28561E51DBB307800D51F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28561EA1DBB307800D51F1A /* libRCTCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28562171DBB402C00D51F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28562261DBB402C00D51F1A /* libRNImagePicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BED282B5FC44EE90788329E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB53AEAA7CCC556BF130DE9 /* Pods_MobikeMap.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,7 +447,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 800;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -419,6 +474,10 @@
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = B28561E51DBB307800D51F1A /* Products */;
+					ProjectRef = 28E94803842D4E28A728CE96 /* RCTCamera.xcodeproj */;
 				},
 				{
 					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
@@ -455,6 +514,10 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = B28562171DBB402C00D51F1A /* Products */;
+					ProjectRef = BAF2C928BC5B41E6BC3A0F57 /* RNImagePicker.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -536,6 +599,20 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B28561EA1DBB307800D51F1A /* libRCTCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTCamera.a;
+			remoteRef = B28561E91DBB307800D51F1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B28562261DBB402C00D51F1A /* libRNImagePicker.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImagePicker.a;
+			remoteRef = B28562251DBB402C00D51F1A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -550,6 +627,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B28562001DBB392100D51F1A /* ios in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -676,6 +754,11 @@
 				INFOPLIST_FILE = MobikeMapTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobikeMap.app/MobikeMap";
@@ -690,6 +773,11 @@
 				INFOPLIST_FILE = MobikeMapTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobikeMap.app/MobikeMap";
@@ -708,6 +796,8 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MobikeMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -734,6 +824,8 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios/**",
 				);
 				INFOPLIST_FILE = MobikeMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -791,6 +883,8 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -834,6 +928,8 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../node_modules/react-native/React/**",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios",
+					"$(SRCROOT)/../node_modules/react-native-image-picker/ios/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
